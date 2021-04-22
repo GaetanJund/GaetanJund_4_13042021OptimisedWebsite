@@ -46,6 +46,11 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    position: relative;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .bloc-md {
@@ -506,8 +511,17 @@ button {
 }
 
 .form-control {
+    display: flex;
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.form-control:hover{
+    border-color: orange;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 
 .scrollToTop {
@@ -677,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -692,11 +706,13 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 40px 40px 40px;
 }
 
 .social {
@@ -780,7 +796,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
