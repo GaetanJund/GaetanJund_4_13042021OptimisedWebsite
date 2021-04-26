@@ -525,6 +525,7 @@ button {
 }
 
 .scrollToTop {
+    color: black;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -706,18 +707,18 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: black !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: black !important;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    justify-content: space-between;
 }
 
 h2 {
@@ -788,6 +789,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    color: black;
 }
 
 .tc-white {
@@ -857,10 +859,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
