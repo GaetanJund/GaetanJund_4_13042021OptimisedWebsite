@@ -511,6 +511,7 @@ button {
 }
 
 .form-control {
+    width: 95%;
     display: flex;
     border-color: rgba(0, 0, 0, .1);
     border-radius: 10px 10px 10px 10px;
@@ -790,6 +791,11 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
     color: black;
+}
+
+.envoyer{
+    width: 95%;
+    margin-left: 10px;
 }
 
 .tc-white {
